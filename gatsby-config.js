@@ -6,5 +6,8 @@ module.exports = {
     title: `My Gatsby Site`,
     siteUrl: `https://tets-five.vercel.app/`,
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [],
 }
